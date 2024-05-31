@@ -12,6 +12,7 @@ module.exports = {
     rules: [
       {
         test: /\.css$/i,
+        exclude: /\.module\.css$/i,
         use: ["style-loader", "css-loader"],
       },
       {
@@ -23,6 +24,14 @@ module.exports = {
             options: {
               modules: true,
             },
+          },
+        ],
+      },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: "file-loader",
           },
         ],
       },
