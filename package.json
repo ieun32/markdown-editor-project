@@ -1,0 +1,24 @@
+{
+  "name": "markdown-editor-project",
+  "description": "마크다운을 편집하고 실시간 미리보기를 제공하며 공유 가능한 마크다운 편집기",
+  "scripts": {
+    "dev": "webpack serve --open --mode=development",
+    "build": "webpack --mode=production",
+    "start": ""
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.6",
+    "@babel/plugin-transform-runtime": "^7.24.6",
+    "@babel/preset-env": "^7.24.6",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^7.1.2",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "html-webpack-plugin": "^5.6.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
