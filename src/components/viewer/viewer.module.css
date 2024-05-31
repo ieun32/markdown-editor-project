@@ -1,0 +1,28 @@
+.viewer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+  height: 100%;
+  padding: 3rem;
+}
+
+.viewer>h2 {
+  margin-bottom: 1rem;
+}
+
+.text {
+  width: 95%;
+  height: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow-y: scroll;
+}
+
+.text>b {
+  font: bold;
+  font-weight: bold;
+}
