@@ -1,0 +1,39 @@
+:root {
+  --main-color: #0064FF;
+  --gray-color: #202632;
+  --light-main-color: #535C91;
+  --dark-main-color: #070F2B;
+  --lighter-main-color: #9290C3;
+  --light-color: #f8f9fa;
+  --dark-color: #343a40;
+  --white-color: #fff;
+  --black-color: #000;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+img {
+  max-width: 300px;
+  height: auto;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+b {
+  font-weight: bold;
+}
